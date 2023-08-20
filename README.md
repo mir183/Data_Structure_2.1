@@ -23,6 +23,6 @@ This repository contains study materials, notes, and resources related to my Dat
 
 ## Get in Touch
 
-If you have any questions or need further clarification about the materials, you can reach me by [email](ahmedemon183@gmail.com) 
+If you have any questions or need further clarification about the materials, you can reach me by email -> ahmedemon183@gmail.com
 
 Happy coding !
