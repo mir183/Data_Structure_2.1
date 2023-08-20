@@ -15,7 +15,7 @@ This repository contains study materials, notes, and resources related to my Dat
 
 ## How to Use
 
-1. **Clone the repository:** Use the green "Code" button to copy the repository URL. Then, in your terminal, use the command: `git clone <repository-url>`
+1. **Clone the repository:** Use the green "Code" button to copy the repository URL. Then, in your terminal, use the command: `git clone <https://github.com/mir183/Data_Structure_2.1>`
 
 2. **Navigate the contents:** You'll find different folders for various topics and types of files. Feel free to explore and use what you need.
 
