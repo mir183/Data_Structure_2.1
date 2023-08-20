@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692076028 source:c:\users\mir\desktop\ds\alphabetcheck\main.c
+	<stdio.h>
+	<stdlib.h>
+
