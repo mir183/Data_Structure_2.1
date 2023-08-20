@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692112802 source:c:\users\mir\desktop\ds\largestinarray\main.c
+	<stdio.h>
+	<stdlib.h>
+
