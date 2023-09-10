@@ -71,7 +71,7 @@ int option(){
 void remobe(int arr[],int *n,int x) {
     int i;
     int flag=0;
-    for(i=0;i<n;i++){
+    for(i=0;i<*n;i++){
         if(arr[i]==x){
             flag++;
             break;
