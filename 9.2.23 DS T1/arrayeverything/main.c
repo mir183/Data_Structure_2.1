@@ -46,7 +46,7 @@ int srch(int arr[],int n, int x){
             printf("\n");
     }
 
-int makearray(int arr[], int *n){
+int makearray(int arr[], int n){
     printf("Enter all elements: ");
     for(int i=0; i<n;i++){
         scanf("%d", &arr[i]);
