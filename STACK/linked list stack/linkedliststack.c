@@ -11,13 +11,24 @@ struct node *head = NULL;
 
 int pushitem()
 {
-    int item;
-    printf("Enter data: ");
-    scanf("%d", &item);
-    struct node *ptr = (struct node *)malloc(sizeof(struct node *));
-    ptr->data = item;
-    ptr->next = head;
-    head = ptr;
+    int val;
+    struct node *ptr = (struct node *)malloc(sizeof(struct node));
+    printf("Enter the value: ");
+    scanf("%d", &val);
+    if (head == NULL)
+    {
+        ptr->data = val;
+        ptr->next = NULL;
+        head = ptr;
+    }
+    else
+    {
+        ptr->data = val;
+        ptr->next = head;
+        head = ptr;
+    }
+    printf("Item pushed");
+    printf("\n");
 }
 
 int popitem()
@@ -50,6 +61,7 @@ int showitem()
             ptr = ptr->next;
         }
     }
+    printf("\n");
 }
 
 int isemptyitem()
@@ -72,7 +84,7 @@ int main()
     {
 
         printf("1. Push\n2. Pop\n3. Show\n4. isempty\n5. Exit...\n");
-        printf("What do you want to do? \n");
+        printf("What do you want to do: ");
         scanf("%d", &choice);
         if (choice == 1)
         {
