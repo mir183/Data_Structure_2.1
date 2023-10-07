@@ -32,7 +32,7 @@ int popelement()
     }
 }
 
-int idfullstack()
+int isfullstack()
 {
     if (top == n - 1)
     {
@@ -91,7 +91,7 @@ int main()
         }
         else if (choice == 3)
         {
-            idfullstack();
+            isfullstack();
         }
         else if (choice == 4)
         {
